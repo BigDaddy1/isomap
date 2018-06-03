@@ -377,7 +377,7 @@ def generate_isochrone_map(origin='',
     </body>
     </html>
     """
-    file_name = uuid4().hex
+    file_name = 'index'
     with open('{}.html'.format(file_name), 'w') as f:
         f.write(htmltext)
 
